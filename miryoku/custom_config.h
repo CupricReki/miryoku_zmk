@@ -15,9 +15,16 @@ U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo 
 
 #define MIRYOKU_LAYER_GAMENUM \
 &kp ESC,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
-&kp LSHFT,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
+&mo U_GAMEFUN,     &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
 &kp LCTRL,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
+
+#define MIRYOKU_LAYER_GAMENUM \
+&kp ESC,           &kp F1,            &kp F2,            &kp F3,            &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
+&none,             &kp F4,            &kp F5,            &kp F6,            &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
+&kp LCTRL,         &kp F7,            &kp F8,            &kp F9,            &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
+U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
+
 
 #define MIRYOKU_LAYERMAPPING_BASE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -42,7 +49,9 @@ MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(GAME,   "Game") \
-MIRYOKU_X(GAMENUM,"GNum")
+MIRYOKU_X(GAMENUM,"GNum") \
+MIRYOKU_X(GAMEFUN,"GFun") \
+
 
 #define MIRYOKU_LAYERMAPPING_GAME( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -54,6 +63,7 @@ XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_BASE \
 XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
 XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                K32  K33  K34       K35  K36  K37
+
 
 #define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
 
@@ -69,3 +79,4 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 #define U_FUN         9
 #define U_GAME       10
 #define U_GAMENUM    11
+#define U_GAMEFUN    12
