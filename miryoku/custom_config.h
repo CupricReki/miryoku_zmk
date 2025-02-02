@@ -19,7 +19,7 @@ U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo 
 &kp LCTRL,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
-#define MIRYOKU_LAYER_GAMENUM \
+#define MIRYOKU_LAYER_GAMEFUN \
 &kp ESC,           &kp F1,            &kp F2,            &kp F3,            &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
 &none,             &kp F4,            &kp F5,            &kp F6,            &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
 &kp LCTRL,         &kp F7,            &kp F8,            &kp F9,            &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
@@ -66,6 +66,7 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 
 
 #define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
+
 
 #define U_BASE        0
 #define U_EXTRA       1
