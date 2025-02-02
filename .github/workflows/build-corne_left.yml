@@ -1,5 +1,5 @@
 name: 'Build corne_left nice_nano_v2 nice_view'
-on: workflow_dispatch
+on: push
 jobs:
   build:
     uses: ./.github/workflows/main.yml
