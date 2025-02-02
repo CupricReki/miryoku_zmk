@@ -1,4 +1,4 @@
-name: 'Build corne_left nice_nano_v2 nice_view'
+name: 'Build corne_right nice_nano_v2 nice_view'
 on: workflow_dispatch
 jobs:
   build:
